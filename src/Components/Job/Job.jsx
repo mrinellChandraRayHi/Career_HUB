@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Job = ({job}) => {
     console.log(job);
-    const {logo, title, companyName, jobCategory, location, salary}=job;
+    const {id, logo, title, companyName, jobCategory, location, salary}=job;
     return (
         <div className="card  flex-1 bg-slate-200">
             <div className="card-body">
@@ -12,7 +14,9 @@ const Job = ({job}) => {
                     <p>{location}</p>
                     <p>{salary}</p>
                 </div>
-                <button className="btn w-[10rem]">View Details</button>
+                <Link to={`/job/${id}`}>
+                    <button className="btn w-[10rem]">View Details</button>
+                </Link>
             </div>
         </div>
     );
