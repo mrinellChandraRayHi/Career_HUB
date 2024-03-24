@@ -4,7 +4,7 @@ import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 const Statistics = () => {
     return (
-        <div>
+        <div className="">
             <Banner/>
             <CategoryList/>
             <FeaturedJobs/>

@@ -18,7 +18,7 @@
     },
     {
         "id": 2,
-        "logo": "https://example.com/logo2.png",
+        "logo": "../src/assets/logo/netflix.png",
         "title": "Marketing Manager",
         "companyName": "ABC Marketing Agency",
         "jobCategory": "Marketing",
@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "logo": "https://example.com/logo3.png",
+        "logo": "../src/assets/logo/tesla.png",
         "title": "Data Scientist",
         "companyName": "Data Insights Co.",
         "jobCategory": "Data Science",
@@ -52,7 +52,7 @@
     },
     {
         "id": 4,
-        "logo": "https://example.com/logo4.png",
+        "logo": "../src/assets/logo/google.png",
         "title": "Financial Analyst",
         "companyName": "Finance Solutions Ltd.",
         "jobCategory": "Finance",
@@ -69,7 +69,7 @@
     },
     {
         "id": 5,
-        "logo": "https://example.com/logo5.png",
+        "logo": "../src/assets/logo/airbnb.png",
         "title": "Graphic Designer",
         "companyName": "Creative Designs Agency",
         "jobCategory": "Design",
